@@ -10,36 +10,12 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-dark-bg text-foreground font-roboto">
-      {/* Header */}
-      <header className="sticky top-0 z-50 bg-dark-surface/90 backdrop-blur-sm border-b border-neon-purple/20">
-        <div className="container mx-auto px-4 py-4">
-          <nav className="flex items-center justify-between">
-            <div className="flex items-center space-x-2">
-              <div className="text-3xl font-oswald font-bold text-neon-purple animate-pulse-neon">
-                NEON CLUB
-              </div>
-              <div className="text-xs text-neon-pink">18+</div>
-            </div>
-            <div className="hidden md:flex space-x-8">
-              <a href="#main" className="hover:text-neon-purple transition-colors">Главная</a>
-              <a href="#artists" className="hover:text-neon-purple transition-colors">Артисты</a>
-              <a href="#shows" className="hover:text-neon-purple transition-colors">Шоу</a>
-              <a href="#schedule" className="hover:text-neon-purple transition-colors">Расписание</a>
-              <a href="#booking" className="hover:text-neon-purple transition-colors">Бронирование</a>
-              <a href="#contact" className="hover:text-neon-purple transition-colors">Контакты</a>
-            </div>
-            <Button className="bg-neon-purple hover:bg-neon-pink transition-all duration-300 animate-glow">
-              <Icon name="Phone" size={16} />
-              Связаться
-            </Button>
-          </nav>
-        </div>
-      </header>
+
 
       {/* Hero Section */}
       <section id="main" className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-pink-900/20 to-purple-900/20"></div>
-        <div className="absolute inset-0 bg-[url('/img/c2a3ec73-2f4a-4df1-9f3f-dbcaaf64612a.jpg')] bg-cover bg-center opacity-40"></div>
+        <div className="absolute inset-0 bg-[url('/img/1ff20be4-dfb5-4340-aff7-4f250d66aa0d.jpg')] bg-cover bg-center opacity-40"></div>
         
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
           <h1 className="text-6xl md:text-8xl font-oswald font-bold mb-6 animate-fade-in">
